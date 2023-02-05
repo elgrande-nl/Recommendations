@@ -17395,14 +17395,12 @@ jp-needs-light-background
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Results:">Results:<a class="anchor-link" href="#Results:">&#182;</a></h1><p>It seems that the test and train results are different. 
-During testing we have a declining accuracy for each extra latent feature.
-It seems that we have not enough variety in the dataset and therefore accuracy cannot be used as a good metric to evaluate the model.</p>
+<h4 id="Results:">Results:<a class="anchor-link" href="#Results:">&#182;</a></h4><p>It seems that the test and train results are differtent. During testing we have a declining accuracy for each extra latent feature.
+It seems that we have not enough variety in the dataset and therefore accuracy cannot be used as a gooed metric to evaluate the model.</p>
 <p>By looking at the F1 score we can see that up to a certain number of latent feature the score starts dropping. This shows that we are overfitting the model.</p>
-<h1 id="How-do-we-test-if-any-of-the-recommendation-systems-are-an-improvement-to-how-users-find-articles?">How do we test if any of the recommendation systems are an improvement to how users find articles?<a class="anchor-link" href="#How-do-we-test-if-any-of-the-recommendation-systems-are-an-improvement-to-how-users-find-articles?">&#182;</a></h1><p>By A/B testing we can split-up users into two groups and do a experiment to test the results of the model.</p>
-<p>Group A would be our benchmark group for them we only show the most read articles on the platform.
-Group B would be our experiment group they will be recommended new articles based on the model.</p>
-<p>To evaluate the outcome we will need to collect data on how manny users where active on the platform and the clicks on them.</p>
+<h4 id="How-do-we-test-if-any-of-the-recommendation-systems-are-an-improvement-to-how-users-find-articles?">How do we test if any of the recommendation systems are an improvement to how users find articles?<a class="anchor-link" href="#How-do-we-test-if-any-of-the-recommendation-systems-are-an-improvement-to-how-users-find-articles?">&#182;</a></h4><p>By A/B testing we can split-up users into two groups and do a experiment to test the results of the model.</p>
+<p>Group A would be our benchmark group for them we only show the most read articles on the platform. Group B would be our experiment group they will be recommended new articles based on the model.</p>
+<p>To evaluate the outcome we will need to collect data on how manny users where active on the platform and the clicks on the articles.</p>
 <p>After a period of time you can evaluate the results and decide if the model used in group B is beter than the benchmark.</p>
 
 </div>
@@ -17474,22 +17472,6 @@ Group B would be our experiment group they will be recommended new articles base
 
 </div>
 
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
 </div>
 
 </div>
